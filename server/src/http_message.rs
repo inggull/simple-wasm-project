@@ -95,7 +95,7 @@ impl RequestMessage {
             self.url.to_owned().unwrap_or("".to_owned()),
             self.version.to_owned().unwrap_or("".to_owned()),
             header_lines,
-            /*String::from_utf8_lossy(&self.entity_body)*/
+            /* String::from_utf8_lossy(&self.entity_body) */
         )
     }
 
@@ -182,7 +182,7 @@ impl ResponseMessage {
             self.status_code.to_owned().unwrap_or("".to_owned()),
             self.phrase.to_owned().unwrap_or("".to_owned()),
             header_lines,
-            /*String::from_utf8_lossy(&self.entity_body)*/
+            /* String::from_utf8_lossy(&self.entity_body) */
         )
     }
 
